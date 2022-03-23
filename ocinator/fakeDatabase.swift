@@ -1,16 +1,18 @@
 import Foundation
 
-class questions {
-    let q01 : String = ""
-    let q02 : String = ""
-    let q03 : String = ""
-    let q04 : String = ""
-    let q05 : String = ""
-    let q06 : String = ""
-    let q07 : String = ""
-    let q08 : String = ""
-    let q09 : String = ""
-    let q10 : String = ""
+
+class questionsData {
+    let q00 : String = "Pergunta 00"
+    let q01 : String = "Pergunta 01"
+    let q02 : String = "Pergunta 02"
+    let q03 : String = "Pergunta 03"
+    let q04 : String = "Pergunta 04"
+    let q05 : String = "Pergunta 05"
+    let q06 : String = "Pergunta 06"
+    let q07 : String = "Pergunta 07"
+    let q08 : String = "Pergunta 08"
+    let q09 : String = "Pergunta 09"
+    let q10 : String = "Pergunta 10"
 }
 
 let r01 : String = "Rest 01"
@@ -24,7 +26,7 @@ let r08 : String = "Rest 08"
 let r09 : String = "Rest 09"
 let r10 : String = "Rest 10"
 
-let pri = [r01, r02, r03, r04, r05, r06, r07, r08, r09, r10]
+var pri = [r01, r02, r03, r04, r05, r06, r07, r08, r09, r10]
         
 
 let op01 = 1111111111
@@ -38,7 +40,17 @@ let op08 = 1111111118
 let op09 = 1111111119
 let op10 = 1111111110
 
-let aux = [op01, op02, op03, op04, op05, op06, op07, op08, op09, op10]
+var aux = [op01, op02, op03, op04, op05, op06, op07, op08, op09, op10]
 
- 
+let a0 = 0
+let a1 = 0
+let a2 = 0
+let a3 = 0
+let a4 = 0
+let a5 = 0
+let a6 = 0
+let a7 = 0
+let a8 = 0
+let a9 = 0
 
+var questi = [a0, a1, a2, a3, a4, a5, a6, a7, a8, a9]
