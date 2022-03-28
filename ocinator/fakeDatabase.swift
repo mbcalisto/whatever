@@ -28,17 +28,16 @@ let r10 : String = "Rest 10"
 
 var pri = [r01, r02, r03, r04, r05, r06, r07, r08, r09, r10]
         
-
 let op01 = 1111111111
 let op02 = 1111111112
-let op03 = 1111111113
-let op04 = 1111111114
-let op05 = 1111111115
-let op06 = 1111111116
-let op07 = 1111111117
-let op08 = 1111111118
-let op09 = 1111111119
-let op10 = 1111111110
+let op03 = 1111111121
+let op04 = 1111111122
+let op05 = 1111111211
+let op06 = 1111111212
+let op07 = 1111111222
+let op08 = 1111112111
+let op09 = 1111112112
+let op10 = 1111112122
 
 var aux = [op01, op02, op03, op04, op05, op06, op07, op08, op09, op10]
 
