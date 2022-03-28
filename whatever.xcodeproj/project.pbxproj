@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AE347D9927E897B80014EE79 /* ocinator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocinator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE347D9927E897B80014EE79 /* whatever */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = whatever; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE347D9C27E897B80014EE79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEF4E85F27EA373D002ACEA3 /* fakeDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +43,7 @@
 		AE347D9027E897B80014EE79 = {
 			isa = PBXGroup;
 			children = (
-				AE347D9B27E897B80014EE79 /* ocinator */,
+				AE347D9B27E897B80014EE79 /* whatever */,
 				AE347D9A27E897B80014EE79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,26 +51,26 @@
 		AE347D9A27E897B80014EE79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE347D9927E897B80014EE79 /* ocinator */,
+				AE347D9927E897B80014EE79 /* whatever */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE347D9B27E897B80014EE79 /* ocinator */ = {
+		AE347D9B27E897B80014EE79 /* whatever */ = {
 			isa = PBXGroup;
 			children = (
 				AEF4E85F27EA373D002ACEA3 /* fakeDatabase.swift */,
 				AE347D9C27E897B80014EE79 /* main.swift */,
 			);
-			path = ocinator;
+			path = whatever;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE347D9827E897B80014EE79 /* ocinator */ = {
+		AE347D9827E897B80014EE79 /* whatever */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE347DA027E897B80014EE79 /* Build configuration list for PBXNativeTarget "ocinator" */;
+			buildConfigurationList = AE347DA027E897B80014EE79 /* Build configuration list for PBXNativeTarget "whatever" */;
 			buildPhases = (
 				AE347D9527E897B80014EE79 /* Sources */,
 				AE347D9627E897B80014EE79 /* Frameworks */,
@@ -80,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = ocinator;
+			name = whatever;
 			productName = ocinator;
-			productReference = AE347D9927E897B80014EE79 /* ocinator */;
+			productReference = AE347D9927E897B80014EE79 /* whatever */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE347D9427E897B80014EE79 /* Build configuration list for PBXProject "ocinator" */;
+			buildConfigurationList = AE347D9427E897B80014EE79 /* Build configuration list for PBXProject "whatever" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE347D9827E897B80014EE79 /* ocinator */,
+				AE347D9827E897B80014EE79 /* whatever */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE347D9427E897B80014EE79 /* Build configuration list for PBXProject "ocinator" */ = {
+		AE347D9427E897B80014EE79 /* Build configuration list for PBXProject "whatever" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE347D9E27E897B80014EE79 /* Debug */,
@@ -278,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE347DA027E897B80014EE79 /* Build configuration list for PBXNativeTarget "ocinator" */ = {
+		AE347DA027E897B80014EE79 /* Build configuration list for PBXNativeTarget "whatever" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE347DA127E897B80014EE79 /* Debug */,
