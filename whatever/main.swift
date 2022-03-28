@@ -1,6 +1,7 @@
 import Foundation
 
 let questions = questionsData()
+let texts  = textsData()
 
 func validateUserInput(range: ClosedRange<Int>) -> Int{
     var inputInt: Int = 99
@@ -20,6 +21,8 @@ func validateUserInput(range: ClosedRange<Int>) -> Int{
 }
 
 let u = 0
+print(texts.t00)
+
 while u < 3 {
     
     print (questions.q00)
@@ -88,5 +91,3 @@ while u < 3 {
         break
     }
 }
-
-

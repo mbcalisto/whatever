@@ -1,6 +1,5 @@
 import Foundation
 
-
 class questionsData {
     let q00 : String = "Pergunta 00"
     let q01 : String = "Pergunta 01"
@@ -53,3 +52,22 @@ let a8 = 0
 let a9 = 0
 
 var questi = [a0, a1, a2, a3, a4, a5, a6, a7, a8, a9]
+
+class textsData {
+    let t00 : String = """
+| Whatever - 
+| Welcome to SleepTracker!
+| overall quality of your sleep weekly.
+| you must insert an approximate amount of the hours you slept in the previous night
+| from 1 to 5, of how well you consider you're feeling after waking up.
+|
+| Shall we begin?
+|
+"""
+    let t01 : String = "Pergunta 01"
+    let t02 : String = "Pergunta 02"
+    let t03 : String = "Pergunta 03"
+    let t04 : String = "Pergunta 04"
+    let t05 : String = "Pergunta 05"
+
+}
