@@ -1,29 +1,94 @@
 import Foundation
 
 class questionsData {
-    let q00 : String = "Pergunta 00"
-    let q01 : String = "Pergunta 01"
-    let q02 : String = "Pergunta 02"
-    let q03 : String = "Pergunta 03"
-    let q04 : String = "Pergunta 04"
-    let q05 : String = "Pergunta 05"
-    let q06 : String = "Pergunta 06"
-    let q07 : String = "Pergunta 07"
-    let q08 : String = "Pergunta 08"
-    let q09 : String = "Pergunta 09"
-    let q10 : String = "Pergunta 10"
+    let q00 : String = """
+    
+    -------------------------------------
+    Digite 1 para Iniciar
+    Digite 2 para Registrar um novo local
+    Digite 3 para Sair
+    -------------------------------------
+    
+    """
+    let q01 : String = """
+    
+    Você quer ir para um lugar novo?
+    --------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q02 : String = """
+    
+    Você quer ir para um lugar barato?
+    ----------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q03 : String = """
+    
+    Você quer ir para um lugar perto de você?
+    -----------------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q04 : String = """
+    
+    Você quer um local romântico?
+    ------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q05 : String = """
+    
+    Você quer para mais de 4 pessoas?
+    ---------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q06 : String = """
+    
+    Você quer com bebida barata?
+    ------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q07 : String = """
+    
+    Você quer rodízio?
+    ------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q08 : String = """
+    
+    Você quer sair para dançar?
+    ------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q09 : String = """
+    
+    Você quer comida de outras regiões do mundo?
+    --------------------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    let q10 : String = """
+    
+    Você pensa em delivery?
+    ------------------------------
+    Ditite 1 para SIM e 2 para NÃO
+    """
+    
+    let q11 : String = """
+    ----------------------------------------------------------------------
+    Digite 1 para: Sim! Estou Interessado em ler a historia do aplicativo!
+    Digite 2 para: Nah! Chega de falação e vai logo!
+    ----------------------------------------------------------------------
+    """
 }
 
-let r01 : String = "Rest 01"
+let r01 : String = "Habibs"
 let r02 : String = "Rest 02"
-let r03 : String = "Rest 03"
-let r04 : String = "Rest 04"
-let r05 : String = "Rest 05"
-let r06 : String = "Rest 06"
-let r07 : String = "Rest 07"
-let r08 : String = "Rest 08"
-let r09 : String = "Rest 09"
-let r10 : String = "Rest 10"
+let r03 : String = "Yakichina Montese"
+let r04 : String = "Rei Do Sushi"
+let r05 : String = "Zoi Colosso"
+let r06 : String = "Yall Club"
+let r07 : String = "Gandaia"
+let r08 : String = "Pasto & Pizza"
+let r09 : String = "Red Black"
+let r10 : String = "China In Box"
 
 var pri = [r01, r02, r03, r04, r05, r06, r07, r08, r09, r10]
         
@@ -55,19 +120,44 @@ var questi = [a0, a1, a2, a3, a4, a5, a6, a7, a8, a9]
 
 class textsData {
     let t00 : String = """
-| Whatever - 
-| Welcome to SleepTracker!
-| overall quality of your sleep weekly.
-| you must insert an approximate amount of the hours you slept in the previous night
-| from 1 to 5, of how well you consider you're feeling after waking up.
-|
-| Shall we begin?
-|
-"""
-    let t01 : String = "Pergunta 01"
-    let t02 : String = "Pergunta 02"
-    let t03 : String = "Pergunta 03"
-    let t04 : String = "Pergunta 04"
-    let t05 : String = "Pergunta 05"
+    ---------------------------------------------
+    Olá! Bem vindo ao WHATEVER!
+    Eu sou seu Automatizador de Escolhas do Ócio
 
+    E o que isso quer dizer?
+    Eu posso te contar mais, está interessado?
+    ---------------------------------------------
+
+    """
+    let t01 : String = """
+    
+    -----------------------------------------------------------------------------------
+    Você quer saber e eu te digo!
+    Antes, deixa eu te dizer, aqui o design é bem simples!
+    Justamente pra que em todas as telas eu funcione corretamente e não fique estranho!
+    -----------------------------------------------------------------------------------
+    
+    """
+    let t02 : String = """
+    
+    ---------------------------------------------------------------------------------------------------------
+    Era uma vez um aluno chamado Kali que recebeu uma bolsa e pra comemorar queria fazer algo diferente!
+    Então ele fala para o namorad: Oi! Que tal a gente comer algo diferente hoje? Quero comer qualquer coisa!
+    E o namorado prontamente respondeu: Pizza!
+    Kali respondeu: To afim de pizza não!
+    
+    Então você não quer qualquer coisa!
+    ---------------------------------------------------------------------------------------------------------
+    
+    """
+    let t03 : String = """
+    
+    ----------------------------------------------------------------------------------
+    E assim nasceu 'Whatever'(Qualquer coisa)
+    Um automatizador de escolhas baseado nos seus gostos com perguntas que irei fazer!
+    
+    Vamos Começar?
+    ----------------------------------------------------------------------------------
+    
+    """
 }

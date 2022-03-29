@@ -20,9 +20,19 @@ func validateUserInput(range: ClosedRange<Int>) -> Int{
     return inputInt
 }
 
-let u = 0
 print(texts.t00)
+print (questions.q11)
+let v = validateUserInput(range: 1...2)
+if v == 1{
+    print(texts.t01)
+    sleep (8)
+    print(texts.t02)
+    sleep (12)
+    print(texts.t03)
+    sleep (8)
+}
 
+let u = 0
 while u < 3 {
     
     print (questions.q00)
@@ -54,10 +64,10 @@ while u < 3 {
         if u == 1{
             if aux.contains(z!) {
                 let k = aux.firstIndex(where: {$0 == z!})
-                print ("\n Local Encontrado: \(pri[k!]) \n")
+                print ("\n \n Local Encontrado, tente experimentar: \(pri[k!]) \n \n")
                 sleep(3)
             }else {
-                print ("Nenhum resultado encontrado! Deseja Registrar com as respostas que você inseriu?")
+                print ("Nenhum local encontrado! Deseja Registrar com as respostas que você inseriu?")
                 let m = validateUserInput(range: 1...2)
                 if m == 1 {
                     print("Insira o nome do novo local:")
@@ -87,7 +97,7 @@ while u < 3 {
     }
     
     if u == 3{
-        print("Fim")
+        print("Fim! Obrigado por utilizar! \n")
         break
     }
 }
