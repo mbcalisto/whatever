@@ -67,15 +67,15 @@ while u < 3 {
                 print ("\n \n Local Encontrado, tente experimentar: \(pri[k!]) \n \n")
                 sleep(3)
             }else {
-                print ("Nenhum local encontrado! Deseja Registrar com as respostas que você inseriu?")
+                print ("\n Nenhum local encontrado! Deseja Registrar com as respostas que você inseriu? \n")
                 let m = validateUserInput(range: 1...2)
                 if m == 1 {
-                    print("Insira o nome do novo local:")
+                    print("\n Insira o nome do novo local:\n")
                     let novo = readLine()
                     aux.append(z!)
                     pri.append(novo!)
-                    print("Local registrado com SUCESSO!")
-                    sleep(2)
+                    print("\n Local registrado com SUCESSO! \n")
+                    sleep(3)
                 }
             }
         }
@@ -86,11 +86,11 @@ while u < 3 {
                 print ("\n Local já registrado: \(pri[k!]) \n")
                 sleep(2)
             }else{
-                print("Insira o nome do novo local:")
+                print("\n Insira o nome do novo local: \n ")
                 let novo = readLine()
                 aux.append(z!)
                 pri.append(novo!)
-                print("Local registrado com SUCESSO!")
+                print(" \n Local registrado com SUCESSO! \n")
                 sleep(2)
             }
         }
