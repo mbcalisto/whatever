@@ -120,13 +120,12 @@ var questi = [a0, a1, a2, a3, a4, a5, a6, a7, a8, a9]
 
 class textsData {
     let t00 : String = """
-    ---------------------------------------------
+    -------------------------------------------------
     Olá! Bem vindo ao WHATEVER!
     Eu sou seu Automatizador de Escolhas do Ócio
 
-    E o que isso quer dizer?
-    Eu posso te contar mais, está interessado?
-    ---------------------------------------------
+    E o que quer dizer? Eu te digo, está interessado?
+    -------------------------------------------------
 
     """
     let t01 : String = """
@@ -134,27 +133,29 @@ class textsData {
     -----------------------------------------------------------------------------------
     Você quer saber e eu te digo!
     Antes, deixa eu te dizer, aqui o design é bem simples!
-    Justamente pra que em todas as telas eu funcione corretamente e não fique estranho!
+    Justamente para que em todas as telas eu funcione corretamente e não fique estranho!
     -----------------------------------------------------------------------------------
     
     """
     let t02 : String = """
     
-    ---------------------------------------------------------------------------------------------------------
-    Era uma vez um aluno chamado Kali que recebeu uma bolsa e pra comemorar queria fazer algo diferente!
-    Então ele fala para o namorad: Oi! Que tal a gente comer algo diferente hoje? Quero comer qualquer coisa!
+    ------------------------------------------------------------------------------------------------------
+    Vamos lá!
+    Era uma vez um aluno chamado Kali que recebeu uma bolsa queria fazer algo diferente pra comemorar!
+    Então ele fala para o namorado: Que tal a gente comer algo diferente hoje? Quero comer QUALQUER COISA!
     E o namorado prontamente respondeu: Pizza!
-    Kali respondeu: To afim de pizza não!
+    Kali respondeu: Não estou afim de pizza não!
     
-    Então você não quer qualquer coisa!
-    ---------------------------------------------------------------------------------------------------------
+    Então você não quer QUALQUER COISA!
+    ------------------------------------------------------------------------------------------------------
     
     """
     let t03 : String = """
     
     ----------------------------------------------------------------------------------
-    E assim nasceu 'Whatever'(Qualquer coisa)
+    E assim nasceu 'Whatever'(QUALQUER COISA)
     Um automatizador de escolhas baseado nos seus gostos com perguntas que irei fazer!
+    Inspirado em busca binária e Akinator
     
     Vamos Começar?
     ----------------------------------------------------------------------------------
