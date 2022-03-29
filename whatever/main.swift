@@ -19,7 +19,7 @@ func validateUserInput(range: ClosedRange<Int>) -> Int{
     }
     return inputInt
 }
-
+    
 print(texts.t00)
 print (questions.q11)
 let v = validateUserInput(range: 1...2)
