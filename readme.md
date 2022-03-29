@@ -1,7 +1,7 @@
 
 # Whatever
 
-Seu automatizador de escolhas do Ócio! A partir dele, seus momentos de ócio ficaram mais fáceis de ficar escolher e atender suas vontades!
+Seu automatizador de escolhas do Ócio! A partir dele, seus momentos de ócio ficaram mais fáceis de escolher e atender suas vontades!
 
 ## Porque 'Whatever'?
 
