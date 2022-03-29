@@ -16,13 +16,13 @@ Então você não quer QUALQUER COISA!
 
 Então a partir disso pensei e elaborei uma ferramenta para ajudar nas escolhas do ócio, onde queremos escolhas mais refinadas mas não sabemos por onde iniciar.
 
-## Como utilizar o Whatever?
+## Como utilizar?
 
 A utilização é bem simples, você apenas precisa responder as perguntas que lhe forem dadas com SIM (1) ou NÃO (2). <br>
 No final será dado um local que pode solucionar seu ócio! <br>
 Baseado em escolhas binárias e ferramentas de internet (Akinator) você tem outras funções como adicionar novos locais ou a partir de um resultado não satisfatório.
 
-## Futuro do Whatever?
+## Qual futuro da aplicação?
 
 Até o momento, caso seja inserido um novo local, você apenas aloca na memoria e ao reiniciar esses dados são perdidos. <br>
 No futuro segue a implementação de banco de dados para registrar os locais de forma fixa.
