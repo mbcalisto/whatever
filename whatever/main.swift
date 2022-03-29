@@ -70,7 +70,7 @@ while u < 3 {
                 print ("\n Nenhum local encontrado! Deseja Registrar com as respostas que você inseriu? \n")
                 let m = validateUserInput(range: 1...2)
                 if m == 1 {
-                    print("\n Insira o nome do novo local:\n")
+                    print("\n Insira o nome do novo local: \n")
                     let novo = readLine()
                     aux.append(z!)
                     pri.append(novo!)
