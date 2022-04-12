@@ -31,4 +31,3 @@ No futuro segue a implementação de banco de dados para registrar os locais de 
 
 <a href="https://fog-lemon-6c8.notion.site/Swift-Challenge-2-31b10f4b8cb6462c822785a7ad77988b"> Challenge #2 - Swift </a><br>
 <a href="https://www.apple.com/br/education/docs/App_Development_with_Swift_Curriculum_Guide.pdf"> Swift - Documentação </a><br>
-<a href="https://pt.akinator.com"> Akinator - Algoritimo Inspirador </a><br>
